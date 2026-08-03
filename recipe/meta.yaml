@@ -27,6 +27,8 @@ requirements:
     - numpy
     - scipy
     - tqdm
+    - array-api-compat
+    - orng
 
 test:
   imports:
