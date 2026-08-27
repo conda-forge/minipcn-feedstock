@@ -1,5 +1,5 @@
 {% set name = "minipcn" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/minipcn-{{ version }}.tar.gz
-  sha256: 70c70062e748b5883084739433b27f59eb159584e4cb3a51b296bb26c7dd0e4b
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/minipcn-{{ version }}.tar.gz
+  sha256: ab27456b9618ff0a7cd393f292f3cece0b052823dfc96d4083efa30aef545da3
 
 build:
   noarch: python
